@@ -1,0 +1,248 @@
+
+@charset "utf-8";
+#canvas{
+		position: fixed;
+		top: 0;
+		z-index: -999;
+	}
+body{
+    font-family:"Microsoft yahei";
+    color:#5a5a5a;
+    cursor:url("../cursor/Hello_Normal.cur"),pointer;
+    background-color:#f3f2f2;
+    font-family: "微软雅黑";
+}
+h1,h2,h3,h4,h5,h6{
+    text-transform:uppercase;
+}
+a,a:hover,a:focus{
+    text-decoration:none;
+}
+
+/*navbar page style start*/
+#tf-menu{
+    padding:20px;
+    transition:all 0.5s;
+}
+#tf-menu a.navbar-brand{
+    text-transform:uppercase;
+    font-size:22px;
+    font-weight:400;
+    color:#fff;
+}
+#tf-menu.navbar-default{
+    background-color:rgba(248,248,248,0);
+    border-color:rgba(231,231,231,0);
+}
+	#tf-menu.navbar-default .navbar-nav{
+		margin-left:60px;
+	}
+#tf-menu.navbar-default .navbar-nav > li > a{
+    text-transform:uppercase;
+    font-size:12px;
+    letter-spacing:1px;
+    color:#fff;
+}
+#tf-menu.navbar-default .navbar-nav > li > a:hover{
+     color:#F27567 ;
+      background-color:transparent;
+}
+.navbar-toggle{
+    border-radius:0;
+}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{
+    background-color:#ec586a;
+    border-color:#ec586a;
+}
+.navbar-default .navbar-toggle:hover > .icon-bar,.navbar-default .navbar-toggle:focus > .icon-bar{
+    background-color:#fff;
+}
+.price{
+	line-height:50px;
+	color:#fff;
+}
+.price .navbar-link{
+	color:#fff;
+}
+.price .navbar-link:hover{
+	color:#ec586a;
+}
+.on{
+    background-color:#222 !important;
+    color:#fff;
+    padding:0 !important;
+}
+/*end style navbar page*/
+#tf-home{
+    background-image: url(../images/back2.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    color:#fff;
+}
+#tf-home .overlay{
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(17%,rgba(0,0,0,0.73)), color-stop(35%,rgba(0,0,0,0.66)), color-stop(62%,rgba(0,0,0,0.55)), color-stop(100%,rgba(0,0,0,0.4)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.73) 17%,rgba(0,0,0,0.66) 35%,rgba(0,0,0,0.55) 62%,rgba(0,0,0,0.4) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#66000000',GradientType=0 );
+    height:800px;
+}
+.content{
+    padding:14% 0 0;
+}
+@media only screen and (max-width: 600px) {
+	.content{
+   	 padding:60% 0 0;
+}
+}
+@media only screen and (min-width: 700px) and (max-width: 1024px){
+	.content{
+   	 padding:30% 0 0;
+}
+}
+.colors{
+    color:#e96f62;
+}
+#tf-home p.lead{
+    color:#e3e3e3;
+}
+/*section page style start*/
+.container .row .height{
+	margin-top:5%;
+	padding:20px;
+	background-color: white;
+}
+.container .row ul{
+	margin-left:15%;
+}
+
+.container .row .myLi{
+	color:#c0c0c0;
+	font-size: 14px;
+}
+#myTab{
+	margin-top:30px;
+}
+.container .row ul li a{
+	display: block;
+	border-radius:3px 3px 3px 3px;
+	width:40%;
+	
+}
+
+.container .row ul li{
+	line-height:2.4em;
+}
+.minus {
+    background: none;
+    background-image: none;
+    border:1px solid #e04f67;
+    box-shadow: none;
+    cursor: pointer;
+    display: inline-block;
+    filter: none;
+    color:#e04f67;
+    text-align: center;
+    outline: none;
+}
+.minus1{
+	border-left:0;
+	border-right:0;
+}
+.font{
+	letter-spacing: 2px;
+}
+.container .row ul{
+	margin-left:0;
+}
+/*end style section page*/
+
+/*asid page style start*/
+.h3{
+	background-color:#fb4160;
+	color: white;
+	margin-top: 0%;
+	margin-left: -6%;
+	margin-right: -6%;
+	padding: 4% 4% 4% 17%;
+}
+
+.box_f{
+margin-left: 2%;
+}
+
+.box_f p{
+	margin: auto;
+	margin-left: 20%;
+}
+/*tf-touch page start*/
+.tf-touch{
+	background:#9B9B9B;
+	position:fixed;
+	right:0;
+	top:40%;
+}
+.tf-touch ul li> a{
+	transition: all 0.5s;
+}
+.tf-touch ul li> a:hover,.tf-touch ul li> a:focus{
+    background:#F27567;
+}
+.tf-touch ul li> a i.fa{
+	color:#fff;
+	font-size:25px;
+}
+.tf-touch ul li>a.active{
+	background: #F27567;
+}
+/*tf-touch page end*/
+
+/*<!--footer page start-->*/
+.tf-footer{
+	margin-top:30px;
+}
+.tf-footer .con p a{
+	color:#000;
+	font-size:12px;
+}
+.tf-footer .con{
+	margin-bottom:15px;
+}
+.tf-footer .con .img-1{
+	width:109px;
+	height:110px;
+}
+.tf-footer .con p span>i{
+	border-radius:50%;
+	border:1px solid #eee;
+	width:30px;
+	height:30px;
+	line-height:30px;
+	background: #eee;
+	transition: all 0.5s;
+}
+.tf-footer .con p span>i.fa1:hover{
+background: #47DAFF;
+color:#fff;
+}
+.tf-footer .con p span>i.fa2:hover{
+background: #4C81D2;
+color:#fff;
+}
+.tf-footer .con p span>i.fa3:hover{
+background:#FF6252;
+color:#fff;
+}
+.tf-footer .con p span>i.fa4:hover{
+background:#E43333;
+color:#fff;
+}
+.tf-footer .con p span>i.fa5:hover{
+background:#FF4978;
+color:#fff;
+}
+/*<!--footer page end-->*/
